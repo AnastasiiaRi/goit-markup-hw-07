@@ -21,12 +21,17 @@
           <!--Menu Nav-->
           <nav class="main-menu">
             <a href="./index.html" class="logo link">Web<span class="logo-col">Studio</span></a>
-            <ul class="list">
+            <ul class="list menu-list">
               <li><a href="./index.html" class="menu current link">Studio</a></li>
               <li><a href="./portfolio.html" class="menu link">Portfolio</a></li>
               <li><a href="" class="menu link">Contacts</a></li>
               </ul>
           </nav>
+          <button type="button" class="mobile-menu-open-btn js-open-menu" aria-expanded="false">
+            <svg class="mobile-menu-open-btn-icon" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-open"></use>
+            </svg>
+          </button>
           <!--Contacts-->
           <address class="contact">
             <ul class="list">
@@ -35,21 +40,41 @@
             </ul>
           </address>
         </div>
+        <div class="mobile-menu js-menu-container">
+          <div class="container mobile-menu-container">
+            <button type="button" class="mobile-menu-close-btn js-close-menu">
+              <svg class=".icon-close-menu" width="8" height="8">
+                <use href="./images/icons.svg#close"></use>
+              </svg>
+            </button>
+            <ul class="list mobile-menu-list">
+              <li><a href="./index.html" class="mobile-menu-link link">Studio</a></li>
+              <li><a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a></li>
+              <li><a href="" class="mobile-menu-link link">Contacts</a></li>
+            </ul>
+            <address class="contact-mobile">
+              <ul class=" contact-list list">
+                <li><a href="tel:+110001111111" class="tel-mobile link">+11 (000) 111-11-11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="email-mobile link">info@devstudio.com</a></li>
+              </ul>
+            </address>
+          </div>
+        </div>
       </header>
       <!--Main-->
-      <main class="main-content">
+      <!-- <main class="main-content"> -->
         <!--Hero Image-->
-        <section class="hero-image">
+        <!-- <section class="hero-image">
           <div class="container hero-image-wrapper">
           <h1 class="tagline">Effective Solutions for Your Business</h1>
           <button data-modal-open type="button" class="order-service">Order Service</button>
           </div>
-        </section>
+        </section> -->
         <!--Section 2-->
-        <section class="our-advantages-wrapper">
-          <div class="container our-advantages">
+        <!-- <section class="our-advantages-wrapper">
+          <div class="container our-advantages"> -->
             <!--Feature 1-->
-            <h2 class="advantages">Our advantages</h2>
+            <!-- <h2 class="advantages">Our advantages</h2>
             <ul class="list">
               <li class="item">
               <div class="icon-wrapper">
@@ -62,9 +87,9 @@
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
-            </li>
+            </li> -->
             <!--Feature 2-->
-            <li class="item">
+            <!-- <li class="item">
               <div class="icon-wrapper">
               <svg class="icon" width="64" height="64">
                 <use href="./images/icons.svg#clock"></use>
@@ -75,9 +100,9 @@
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
-            </li>
+            </li> -->
             <!--Feature 3-->
-            <li class="item">
+            <!-- <li class="item">
               <div class="icon-wrapper">
               <svg class="icon" width="64" height="64">
                 <use href="./images/icons.svg#diagram"></use>
@@ -88,9 +113,9 @@
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
-            </li>
+            </li> -->
             <!--Feature 4-->
-            <li class="item">
+            <!-- <li class="item">
               <div class="icon-wrapper">
               <svg class="icon" width="64" height="64">
                 <use href="./images/icons.svg#astronaut"></use>
@@ -104,9 +129,9 @@
             </li>
           </ul>
           </div>
-          </section>
+          </section> -->
           <!--Section 3-->
-          <section class="our-profile">
+          <!-- <section class="our-profile">
             <div class="container">
             <h2 class="w_a_w_d">What are we doing</h2>
             <ul class="list">
@@ -115,14 +140,14 @@
               <li class="work-item"><img src="./images/img_3.jpg" alt="mobile applications" class="img-3" width="360"></li>
             </ul>
             </div>
-          </section>
+          </section> -->
           <!--Section 4-->
-          <section class="team">
+          <!-- <section class="team">
             <div class="container">
             <h2 class="our-team">Our Team</h2>
-            <ul class="list">
+            <ul class="list"> -->
               <!--Team Card 1-->
-              <li class="card">
+              <!-- <li class="card">
                   <img src="./images/img_7.jpg" alt="Product Designer Photo" class="img-7" width="264">
                   <div class="team-item">
                   <h3 class="name">Mark Guerrero</h3>
@@ -158,9 +183,9 @@
                     </li>
                   </ul>
                   </div>
-              </li>
+              </li> -->
               <!--Team Card 2-->
-              <li class="card">
+              <!-- <li class="card">
                 <img src="./images/img_6.jpg" alt="Frontend Developer Photo" class="img-6" width="264">
                 <div class="team-item">
                 <h3 class="name">Tom Ford</h3>
@@ -196,9 +221,9 @@
                   </li>
                 </ul>
                 </div>
-              </li>
+              </li> -->
               <!--Team Card 3-->
-              <li class="card">
+              <!-- <li class="card">
                 <img src="./images/img_5.jpg" alt="Marketing Photo" class="img-5" width="264">
                 <div class="team-item">
                 <h3 class="name">Camila Garcia</h3>
@@ -234,9 +259,9 @@
                   </li>
                 </ul>
                 </div>
-              </li>
+              </li> -->
               <!--Team Card 4-->
-              <li class="card">
+              <!-- <li class="card">
                 <img src="./images/img_4.jpg" alt="UI Designer Photo" class="img-4" width="264">
                 <div class="team-item">
                 <h3 class="name">Daniel Wilson</h3>
@@ -325,9 +350,9 @@
               </ul>
             </div>
           </section>
-      </main>
+      </main> -->
         <!--Footer-->
-      <footer class="footer-wrapper">
+      <!-- <footer class="footer-wrapper">
         <div class="container footer">
             <div class="logo-wrapper">
               <a href="./index.html" class="logo link">Web<span class="logo-col-w">Studio</span></a>
@@ -435,7 +460,8 @@
           <button type="submit" class="send-btn">Send</button>
         </form>
         </div>
-      </div>
+      </div> -->
       <script src="./js/modal.js"></script>
+      <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
