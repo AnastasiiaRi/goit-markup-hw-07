@@ -137,9 +137,6 @@ section {
     .mobile-menu-link:focus {
       color: var(--brand-color-4);
     }
-    .contact-mobile {
-    
-    }
     .main-menu {
       padding: 24px 0 22px 0;
     }
