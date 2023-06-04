@@ -413,6 +413,9 @@ line-height: 1.11;
   }
 }
 @media screen and (min-width: 1440px) {
+  .our-advantages-wrapper {
+    padding: 120px 0;
+  }
   .item {
     width: calc((100% - 72px) / 4);
   }
@@ -449,7 +452,8 @@ text-align: center;
 }
 @media screen and (min-width: 1440px) {
   .our-profile {
-    padding-top: 0px;
+    display: flex;
+    padding: 0px 0px 120px 0;
   }
   .w_a_w_d {
     font-size: 36px;
@@ -499,6 +503,9 @@ text-align: center;
 @media screen and (min-width: 1440px) {
   .card {
     width: calc((100% - 72px) / 4);
+  }
+  .team {
+    padding: 120px 0 120px;
   }
 }
 .team {
@@ -598,6 +605,9 @@ text-align: center;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
+  .customers {
+    padding: 0 92px;
+  }
   .client {
     width: calc((100% - 48px) / 3);
     height: 88px;
@@ -609,6 +619,9 @@ text-align: center;
   }
 }
 @media screen and (min-width: 1440px) {
+  .customers-wrapper {
+    padding: 120px 0 120px 0;
+  }
   .client {
     width: calc((100% - 120px) / 6);
     height: 88px;
@@ -712,25 +725,33 @@ text-align: center;
     width: 398px;
    }
 }
-/* .footer {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap:72px;
+  }
+  .footer-wrapper {
+    padding-left: 92px;
+  }
 }
-.footer-wrapper {
-  background-color: var(--brand-color-3);
-  color: var(--brand-color-5);
-  padding: 100px 0;
+@media screen and (min-width: 1440px) {
+  .footer {
+    display: flex;
+  }
+  .footer-wrapper {
+    padding: 100px 0;
+  }
+  .logo-wrapper {
+    margin-right: 120px;
+  }
+  .subscribe-label {
+    margin-right: 24px;
+  }
+  .social-media-wrapper {
+    margin-right: 80px;
+  }
 }
-.footer .logo {
-  display: flex;
-  display: inline-block;
-  margin-bottom: 16px;
-  margin-right: 0px;
-}
-.logo-wrapper {
-  margin-right: 120px;
-}
- */
 .social-media {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -762,9 +783,6 @@ text-align: center;
 .media:focus {
   background-color:#31D0AA;
 }
-/* .social-media-wrapper {
-  margin-right: 80px;
-} */
 .subscribe-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -777,10 +795,6 @@ text-align: center;
 .form-subscribe {
   display: flex;
 }
-/* .subscribe-label {
-  margin-right: 24px;
-} */
-
 .subscribe-input::placeholder {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
