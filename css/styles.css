@@ -659,7 +659,7 @@ line-height: 1.2;
   .footer-wrapper {
     background-color: var(--brand-color-3);
     color: var(--brand-color-5);
-    padding-top: 96px 0 ;
+    padding: 96px 0 ;
   }
   .text-footer {
     line-height: 1.5;
@@ -687,7 +687,7 @@ line-height: 1.2;
     margin-bottom: 72px;
 }
    .subscribe-title {
-    text-align: left;
+    text-align: center;
    }
    .form-subscribe {
     gap: 16px;
@@ -727,7 +727,11 @@ line-height: 1.2;
     flex-wrap: wrap;
     gap: 24px;
     row-gap:72px;
-    padding: 92px 0 0 108px;
+    padding-left: 108px;
+    justify-content: left;
+  }
+  .footer .logo {
+    justify-content: left;
   }
   .subscribe-input {
     width: 264px;
@@ -741,6 +745,9 @@ line-height: 1.2;
    .subscribe-label {
     margin-right: 24px;
   }
+  .subscribe-title {
+    text-align: left;
+   }
 }
 @media screen and (min-width: 1158px) {
   .footer-wrapper {
