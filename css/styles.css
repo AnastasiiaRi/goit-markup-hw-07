@@ -411,10 +411,9 @@ line-height: 1.11;
 }
 @media screen and (min-width: 768px) {
   .our-advantages .list {
-    row-gap: 72px;
+    gap: 72px 24px;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
   }
   .item {
     width: calc((100% - 24px) / 2);
@@ -585,9 +584,6 @@ line-height: 1.2;
   margin-bottom: 72px;
   margin-top: 0;
 }
-.customers .list {
-  gap: 16px;
-}
   .client {
     width: calc((100% - 16px) / 2);
     height: 88px;
@@ -619,7 +615,8 @@ line-height: 1.2;
   }
 @media screen and (min-width: 768px) {
   .customers {
-    padding: 0 108px;
+    padding-left: 92px;
+    padding-right: 92px;
   }
   .client {
     width: calc((100% - 48px) / 3);
@@ -629,6 +626,7 @@ line-height: 1.2;
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 72px;
+    
   }
 }
 @media screen and (min-width: 1158px) {
@@ -638,6 +636,10 @@ line-height: 1.2;
   .client {
     width: calc((100% - 120px) / 6);
     height: 88px;
+  }
+  .customers {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -719,9 +721,18 @@ line-height: 1.2;
     flex-wrap: wrap;
     gap: 24px;
     row-gap:72px;
-    padding-left: 108px;
     justify-content: left;
   }
+  .logo-wrapper {
+    margin-bottom: 0px;
+    padding-left: 92px;
+  }
+  .subscribe-wrapper {
+    padding-left: 92px;
+  }
+  .social-media-wrapper {
+    margin-bottom: 0px;
+}
   .footer .logo {
     justify-content: left;
   }
@@ -729,7 +740,7 @@ line-height: 1.2;
     width: 264px;
    }
    .text-footer {
-    max-width: 264px;
+    width: 264px;
   }
   .form-subscribe {
     flex-direction: row;
@@ -742,14 +753,22 @@ line-height: 1.2;
    }
 }
 @media screen and (min-width: 1158px) {
+  .footer {
+    align-items: baseline;
+    flex-wrap: nowrap;
+  }
   .footer-wrapper {
     padding: 100px 0;
   }
   .logo-wrapper {
     margin-right: 120px;
+    padding-left: 0px;
   }
   .social-media-wrapper {
     margin-right: 80px;
+  }
+  .subscribe-wrapper {
+    padding-left: 0;
   }
 }
 .social-media {
